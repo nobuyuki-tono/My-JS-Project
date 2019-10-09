@@ -1,0 +1,36 @@
+/* Drum Kit CSS */
+
+.drum-w {
+  background: url("/image/tom1.png");
+}
+.drum-a {
+  background: url("/image/tom2.png");
+}
+.drum-s {
+  background: url("/image/tom3.png");
+}
+.drum-d {
+  background: url("/image/tom4.png");
+}
+.drum-j {
+  background: url("/image/snare.png");
+}
+.drum-k {
+  background: url("/image/crash.png");
+}
+.drum-l {
+  background: url("/image/kick.png");
+}
+
+.drum {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
