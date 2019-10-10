@@ -1,25 +1,42 @@
 /* Drum Kit CSS */
 
+body {
+  background-color: rgb(240, 230, 205);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  height: 100px;
+  color: #fff;
+  background: rgb(17, 1, 56);
+}
+
+header h1 {
+  padding-top: 20px;
+}
+
 .drum-w {
-  background: url("/image/tom1.png");
+  background: url("../image/tom1.png");
 }
 .drum-a {
-  background: url("/image/tom2.png");
+  background: url("../image/tom2.png");
 }
 .drum-s {
-  background: url("/image/tom3.png");
+  background: url("../image/tom3.png");
 }
 .drum-d {
-  background: url("/image/tom4.png");
+  background: url("../image/tom4.png");
 }
 .drum-j {
-  background: url("/image/snare.png");
+  background: url("../image/snare.png");
 }
 .drum-k {
-  background: url("/image/crash.png");
+  background: url("../image/crash.png");
 }
 .drum-l {
-  background: url("/image/kick.png");
+  background: url("../image/kick.png");
 }
 
 .drum {
@@ -31,6 +48,20 @@
 }
 
 .pressed {
-  box-shadow: 0 3px 4px 0 #dbedf3;
-  opacity: 0.5;
+  box-shadow: 0 10px 10px 0 #dbedf3;
+  opacity: 0.8;
+}
+
+#drum-set {
+  height: 70vh;
+  padding-top: 100px;
+  padding-left: 50px;
+}
+
+footer {
+  text-align: center;
+  height: 50px;
+  color: #fff;
+  background: rgb(17, 1, 56);
+  padding-top: 20px;
 }
