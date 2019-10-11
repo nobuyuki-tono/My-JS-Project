@@ -68,3 +68,10 @@ footer {
   background: rgb(17, 1, 56);
   padding-top: 20px;
 }
+
+@media (max-width: 580px) {
+  #drum-set {
+    height: 100%;
+    margin: 0 auto;
+  }
+}

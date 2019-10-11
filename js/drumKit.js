@@ -25,12 +25,12 @@ function makeSound(key) {
       break;
 
     case "k":
-      var crash = new Audio("sound/crash.mp3");
+      var crash = new Audio("sound/hihat.m4a");
       crash.play();
       break;
 
     case "l":
-      var kick = new Audio("sound/kick-bass.mp3");
+      var kick = new Audio("sound/KICK64.wav");
       kick.play();
       break;
 
